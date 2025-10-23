@@ -8,12 +8,18 @@
   --red: #FF0070;
   --pink: #F1B2CE;
   --black: #000028;
+  --purple: #DB00FF;
 
-
+  --big-text: 700;
   --title-weight: 700;
   --text-weight: 400;
-  --title-color: var(--red);
+  --big-color: var(--purple);
   --text-color: var(--pink);
+  --title-color: var(--red);
+  --subtitle-color: var(--black);
   --text-bg-color: var(--red);
+  --second-color: var(--red);
+  --menu-color: var(--red);
   --bg: var(--black);
+  --text-shadow: var(--red);
 }

@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  
+
   --img-bg: var(--light-img);
 
   --border-color: var(--transparent-black);
@@ -23,5 +23,3 @@
   --bg: var(--light-pink);
   --text-shadow: var(--tea-rose);
 }
-
-

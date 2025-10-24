@@ -3,19 +3,18 @@
   и их переопределение под различные устройства
 */
 
-
 :root {
   /* неон */
-  --red: #FF0070;
-  --pink: #F1B2CE;
+  --red: #ff0070;
+  --pink: #f1b2ce;
   --transparent-pink: rgba(255, 0, 112, 0.4);
-  --purple: #DB00FF;
+  --purple: #db00ff;
   /* день */
-  --light-pink: #FFF1F7;  
+  --light-pink: #fff1f7;
   --black: #000028;
-  --transparent-black: #32312D66;
-  --pink-sakura: #FFC2E6;
-  --tea-rose: #FF8DCB;
+  --transparent-black: #32312d66;
+  --pink-sakura: #ffc2e6;
+  --tea-rose: #ff8dcb;
   --dark-gray: #353430;
 
   --dark-img: url(../images/cover-image-dark.png);

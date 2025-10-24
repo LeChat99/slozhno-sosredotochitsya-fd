@@ -6,7 +6,7 @@
 
 .header {
   position: relative;
-  background: var(--img-bg)  center center / cover no-repeat;
+  background: var(--img-bg) center center / cover no-repeat;
 }
 
 .decorated-zone {
@@ -23,9 +23,9 @@
 }
 
 .decorative-text::after {
-  margin: 6px 9px 2px 10px; 
-  content: '';
-  display:inline-block;
+  margin: 6px 9px 2px 10px;
+  content: "";
+  display: inline-block;
   width: 9px;
   height: 9px;
   background-color: var(--second-color);

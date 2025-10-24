@@ -20,13 +20,14 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="decorative-text">rec</div>
+      <div class="decorative-text" aria-hidden="true">rec</div>
       <div class="corner corner__top"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
+              class="header__theme-menu-button header__theme-menu-button_type_light" 
+              aria-label="меняет цвет страницы на светлую"
             >
               день
             </button>
@@ -35,6 +36,7 @@
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
+              aria-label="меняет цвет страницы автоматически"
             >
               авто
             </button>
@@ -42,6 +44,7 @@
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
+              aria-label="меняет цвет страницы на темную"
             >
               неон
             </button>

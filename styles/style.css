@@ -11,19 +11,19 @@
 
 .decorated-zone {
   padding: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
 }
 
 .decorative-text {
-  padding: 2px 8px 0 0;
   text-transform: uppercase;
   font-weight: var(--text-weight);
   color: var(--second-color);
   text-align: end;
+  font-size: 18px;
 }
 
 .decorative-text::after {
-  margin: 1px 0 1px 10px; 
+  margin: 6px 9px 2px 10px; 
   content: '';
   display:inline-block;
   width: 9px;
@@ -35,7 +35,7 @@
 
 .corner {
   display: inline-block;
-    position: absolute;
+  position: absolute;
   width: 25px;
   height: 25px;
   border: 1px solid var(--second-color);
@@ -49,20 +49,24 @@
 }
 
 .header__theme-menu {
-  width: 70px;
-  position: relative;
-  top: 40px;
-  left: 300px;
+  position: absolute;
+  top: 62px;
+  right: 10px;
+}
+
+.header__theme-menu-item {
+  margin-top: 10px;
 }
 
 .header__theme-menu-button {
   width: 70px;
-  height: 26px;
-  margin: 5px;
+  height: 27px;
   background: transparent;
   border: none;
   color: var(--menu-color);
   font-weight: var(--text-color);
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .header__theme-menu-button_active {
@@ -70,26 +74,26 @@
 }
 
 .big-text {
-  margin-top: 10%;
+  margin-top: 57%;
   font-weight: var(--big-text);
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   color: var(--big-color);
   text-shadow: 4px 4px var(--text-shadow);
-  line-height: 83%;
+  line-height: 84%;
 }
 
 .subtitle {
-  margin: 55px 0 65px 0;
+  margin: 54px 0 65px 0;
   background-color: var(--text-bg-color);
   color: var(--subtitle-color);
   font-weight: var(--title-weight);
   font-size: 18px;
-  line-height: 23px;
+  line-height: 24px;
 }
 
 .corner__bottom {
   left: 10px;
-  bottom: 10px;
+  bottom: 22px;
   border-top: 0;
   border-right: 0;
 }
@@ -103,7 +107,7 @@ section:not(:first-child) {
 }
 
 .text_card-item {
-  margin-top: 20px;
+  margin-top: 19.2px;
 
 }
 
@@ -111,7 +115,7 @@ section:not(:first-child) {
   font-weight: var(--title-weight);
   color: var(--title-color);
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
 }
 
 .subtitle_margin {
@@ -123,7 +127,7 @@ section:not(:first-child) {
   font-weight: var(--text-weight);
   color: var(--text-color);
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
 }
 
 .link {
@@ -136,18 +140,27 @@ section:not(:first-child) {
 }
 
 .img__subtitle {
-  margin: 50px 0 0 0;
+  margin: 50px 0 5px 0;
 }
 
 .img__picture {
-  margin-top: 10px;
+  margin-top: 0.35rem;
   width: 100%;
 }
 
 .footer {
+  margin-top: 36px;
   position: relative;
   height: 668px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.big-text_margin {
+  margin: 0;
+}
+
+.corner__bottom_footer {
+  bottom: 11px;
 }

@@ -88,12 +88,15 @@
 }
 
 .subtitle {
-  margin: 54px 0 65px 0;
   background-color: var(--text-bg-color);
   color: var(--subtitle-color);
   font-weight: var(--title-weight);
   font-size: 18px;
   line-height: 24px;
+}
+
+.subtitle_header {
+  margin: 54px 0 65px 0;
 }
 
 .corner__bottom {
@@ -113,9 +116,9 @@ section:not(:first-child) {
   margin-top: 50px;
 }
 
-.text_card-item {
-  margin-top: 19.2px;
-
+.card-list {
+  display: grid;
+  gap: 19.3px;
 }
 
 .title {
@@ -123,10 +126,6 @@ section:not(:first-child) {
   color: var(--title-color);
   font-size: 18px;
   line-height: 23.4px;
-}
-
-.subtitle_margin {
-  margin: 0;
 }
 
 .text {

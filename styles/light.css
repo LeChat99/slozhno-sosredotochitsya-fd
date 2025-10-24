@@ -22,4 +22,8 @@
   --menu-color: var(--black);
   --bg: var(--light-pink);
   --text-shadow: var(--tea-rose);
+
+    .decorative-text {
+    display: none;
+  }
 }

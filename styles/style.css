@@ -6,7 +6,7 @@
 
 .header {
   position: relative;
-  background: url(../images/cover-image-dark.png)  center center / cover no-repeat;
+  background: var(--img-bg)  center center / cover no-repeat;
 }
 
 .decorated-zone {
@@ -64,7 +64,7 @@
   background: transparent;
   border: none;
   color: var(--menu-color);
-  font-weight: var(--text-color);
+  font-weight: var(--text-weight);
   font-size: 18px;
   line-height: 18px;
 }
@@ -75,7 +75,7 @@
 }
 
 .header__theme-menu-button_active:hover {
-  border-color: rgba(255, 0, 112, 0.4);
+  border-color: var(--border-color);
 }
 
 .big-text {

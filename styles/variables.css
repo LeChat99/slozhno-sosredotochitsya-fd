@@ -5,14 +5,28 @@
 
 
 :root {
+  /* неон */
   --red: #FF0070;
   --pink: #F1B2CE;
-  --black: #000028;
+  --transparent-pink: rgba(255, 0, 112, 0.4);
   --purple: #DB00FF;
+  /* день */
+  --light-pink: #FFF1F7;  
+  --black: #000028;
+  --transparent-black: #32312D66;
+  --pink-sakura: #FFC2E6;
+  --tea-rose: #FF8DCB;
+  --dark-gray: #353430;
+
+  --dark-img: url(../images/cover-image-dark.png);
+  --light-img: url(../images/cover-image-light.png);
+
+  --img-bg: var(--dark-img);
 
   --big-text: 700;
   --title-weight: 700;
   --text-weight: 400;
+  --border-color: var(--transparent-pink);
   --big-color: var(--purple);
   --text-color: var(--pink);
   --title-color: var(--red);

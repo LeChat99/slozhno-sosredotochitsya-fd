@@ -23,7 +23,7 @@
   --bg: var(--light-pink);
   --text-shadow: var(--tea-rose);
 
-    .decorative-text {
+  .decorative-text {
     display: none;
   }
 }

@@ -1,7 +1,8 @@
 @media (width >= 768px) {
   .header {
     height: min(100vh, 1024px);
-    grid-template-rows: 55% 1fr;
+    grid-template-rows: 27.5% 28% 1fr;
+    align-items: end;
   }
 
   .decorated-zone {
@@ -20,12 +21,10 @@
   }
 
   .header__theme-menu {
-    top: 23.4vw;
-    right: 20px;
+    align-self: end;
   }
 
   .big-text {
-    margin-top: 200px;
     margin-left: -20px;
     font-size: 120px;
   }
@@ -33,10 +32,7 @@
   .header__item {
     justify-self: end;
     width: 50%;
-  }
-
-  .subtitle_header {
-    margin: 160px 0 162px 50%;
+    margin: 0;
   }
 
   .corner__bottom {
@@ -59,11 +55,19 @@
     row-gap: 19px;
   }
 
-  .text_card-item:has(h2) {
+   .card-list .title {
     grid-row: 1 / 3;
+   }
+
+  .title {
+    margin: 0;
   }
 
-  .text_card-item:has(h3) {
+ .text_card-item:has(h3) {
+    grid-column: 2 / 3;
+  }
+
+  .text_card-item:has(h4) {
     grid-column: 2 / 3;
   }
 
@@ -90,26 +94,26 @@
     object-fit: cover;
   }
 
-  .img__picture_top-left {
+  .img__picture:nth-child(2) {
     grid-column: 1 / 3;
   }
 
-  .img__picture_top-right {
+  .img__picture:nth-child(3) {
     grid-column: 3 / 4;
     grid-row: 2 / 4;
   }
 
-  .img__picture_bottom-left {
+  .img__picture:nth-child(4) {
     grid-column: 1 / 2;
     grid-row: 3 / 5;
   }
 
-  .img__picture_center {
+  .img__picture:nth-child(5) {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
   }
 
-  .img__picture_bottom-right {
+  .img__picture:nth-child(6) {
     grid-column: 2 / 4;
   }
 
@@ -130,14 +134,13 @@
 @media (width >= 1024px) {
   .header {
     height: min(100vh, 768px);
-    grid-template-rows: 59% 1fr;
+    grid-template-rows: 31% 28% 1fr;
   }
 
   .header__theme-menu {
-    max-width: 230px;
-    top: 18px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 230px;
+    justify-self: center;
+    align-self: start;
   }
 
   .header__theme-menu-list {
@@ -150,7 +153,6 @@
   }
 
   .big-text {
-    margin-top: 28%;
     font-size: 9.81rem;
   }
 
@@ -167,7 +169,7 @@
     grid-template-rows: min-content 1fr;
   }
 
-  .card-list_what .text_card-item:has(h2) {
+  .card-list_what .title {
     grid-column: 1 / 4;
     grid-row: auto;
     max-width: 314px;
@@ -191,43 +193,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --img-bg: var(--dark-img);
 
-    --big-text: 700;
-    --title-weight: 700;
-    --text-weight: 400;
-    --border-color: var(--transparent-pink);
-    --big-color: var(--purple);
-    --text-color: var(--pink);
-    --title-color: var(--red);
-    --subtitle-color: var(--black);
-    --text-bg-color: var(--red);
-    --second-color: var(--red);
-    --menu-color: var(--red);
-    --bg: var(--black);
-    --text-shadow: var(--red);
-  }
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --img-bg: var(--light-img);
 
-    --border-color: var(--transparent-black);
-    --big-color: var(--pink-sakura);
-    --text-color: var(--dark-gray);
-    --title-color: var(--dark-gray);
-    --subtitle-color: var(--dark-gray);
-    --text-bg-color: var(--tea-rose);
-    --second-color: var(--black);
-    --menu-color: var(--black);
-    --bg: var(--light-pink);
-    --text-shadow: var(--tea-rose);
-  }
-
-  .decorative-text {
-    display: none;
-  }
-}

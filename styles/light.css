@@ -27,3 +27,24 @@
     display: none;
   }
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --img-bg: var(--light-img);
+
+    --border-color: var(--transparent-black);
+    --big-color: var(--pink-sakura);
+    --text-color: var(--dark-gray);
+    --title-color: var(--dark-gray);
+    --subtitle-color: var(--dark-gray);
+    --text-bg-color: var(--tea-rose);
+    --second-color: var(--black);
+    --menu-color: var(--black);
+    --bg: var(--light-pink);
+    --text-shadow: var(--tea-rose);
+  }
+
+  .decorative-text {
+    display: none;
+  }
+}

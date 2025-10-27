@@ -178,10 +178,6 @@
     max-width: 314px;
   }
 
-  .card-list_what .text_card-item:has(h3) {
-    grid-column: auto;
-  }
-
   .section__how {
     grid-template-columns: 32% 2fr;
   }

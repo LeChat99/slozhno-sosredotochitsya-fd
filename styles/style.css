@@ -77,7 +77,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--border-color);
+  outline: 1px solid var(--border-color);
 }
 
 .header__theme-menu-button:focus {
@@ -159,7 +159,7 @@ section:not(:first-child) {
 }
 
 .link:focus {
-  border-bottom: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .link:hover {

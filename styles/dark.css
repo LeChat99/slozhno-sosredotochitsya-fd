@@ -26,6 +26,10 @@
   --text-shadow: var(--red);
 }
 
+.theme-dark .decorative-text {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --img-bg: var(--dark-img);
@@ -43,5 +47,9 @@
     --menu-color: var(--red);
     --bg: var(--black);
     --text-shadow: var(--red);
+  }
+
+  .theme-dark .decorative-text {
+    display: block;
   }
 }

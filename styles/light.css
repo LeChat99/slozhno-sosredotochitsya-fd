@@ -22,11 +22,10 @@
   --menu-color: var(--black);
   --bg: var(--light-pink);
   --text-shadow: var(--tea-rose);
-
-  .decorative-text {
+}
+  .theme-light .decorative-text {
     display: none;
   }
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -44,7 +43,7 @@
     --text-shadow: var(--tea-rose);
   }
 
-  .decorative-text {
+  .theme-light .decorative-text {
     display: none;
   }
 }

@@ -23,9 +23,9 @@
   --bg: var(--light-pink);
   --text-shadow: var(--tea-rose);
 }
-  .theme-light .decorative-text {
-    display: none;
-  }
+.theme-light .decorative-text {
+  display: none;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -43,7 +43,7 @@
     --text-shadow: var(--tea-rose);
   }
 
-  .theme-light .decorative-text {
+  .decorative-text {
     display: none;
   }
 }
